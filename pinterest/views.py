@@ -19,3 +19,16 @@ def search(request):
         description__icontains=query).all()
     context = {'pins':pins[:49]}
     return render(request, 'home.html', context)
+
+
+def about(request):
+    return render(request, 'about.html')
+
+def business(request):
+    return render(request, 'business.html')
+
+def blog(request):
+    return render(request, 'blog.html')
+
+
+
