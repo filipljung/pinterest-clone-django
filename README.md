@@ -1,5 +1,6 @@
 ![Screenshot 2022-02-02 at 10-21-38 Pinterest-min](https://user-images.githubusercontent.com/71011395/152303215-f1b256c4-505c-4c4a-8ad6-eb044df43398.png)
-Live: https://pinterest-clone-django.onrender.com
+
+##Live: https://pinterest-clone-django.onrender.com
 # Pinterest Clone: Create and Organize Boards with Pins
 
 This project is a Pinterest clone that allows users to create boards and save pins to those boards. Similar pins are displayed below each pin on the pin-detail page. The underlying algorithm is straightforward: when a user visits the pin-detail page, the system searches the database for all boards that may contain that particular pin and then displays all the pins within those boards.
